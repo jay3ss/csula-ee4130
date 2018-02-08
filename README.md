@@ -1,3 +1,3 @@
-# csula-ee4130
+# cEE4130
 
 Notes, assignments, etc.
