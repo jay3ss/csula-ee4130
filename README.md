@@ -1,3 +1,3 @@
-# cEE4130
+# EE4130
 
 Notes, assignments, etc.
