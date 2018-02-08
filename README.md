@@ -1,3 +1,3 @@
-# EE4130
+# Systems Engineering - EE4130
 
 Notes, assignments, etc.
