@@ -92,8 +92,70 @@ Select a man-made system of your choice (preferably NOT one from the textbook)
  components and attributes of that system you chose.
 \end_layout
 
-\begin_layout Standard
-Blah blah blah
+\begin_layout Itemize
+
+\series bold
+Man-made system:
+\series default
+ a satellite in geostationary orbit around the earth
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Components:
+\series default
+ communications dish, reaction wheels, on-board computer, solar panels,
+ gimbals, radar altimeter
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Attributes:
+\series default
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Communications dish: bandwidth, frequency
+\end_layout
+
+\begin_layout Itemize
+Reaction wheels: orientation, radius, mass
+\end_layout
+
+\begin_layout Itemize
+On-board computer: RAM, CPU speed, disk space
+\end_layout
+
+\begin_layout Itemize
+Solar panels and power system: area, power, voltage
+\end_layout
+
+\begin_layout Itemize
+Gimbals: degrees of freedom
+\end_layout
+
+\begin_layout Itemize
+Radar altimeter: frequency, resolution
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+Relationships:
+\series default
+ The communications dish receives commands and transmits these commands
+ to the ob-board computer which collects data from the radar altimeter.
+ The on-board computer process the telemetry data from the radar altimeter
+ and sends it back to the ground via the communications dish.
+ The gimbals point the communications dish at the ground station and point
+ the radar altimeter at the target.
+ The solar panels and power system provide power for the satellite.
+ 
 \end_layout
 
 \begin_layout Part*
@@ -103,6 +165,33 @@ Question 2
 \begin_layout Quote
 List some of the likely benefits from using systems thinking and the systems
  engineering process, when developing a new system or product.
+\end_layout
+
+\begin_layout Standard
+Some likely benefits of using systems thinking and the systems engineering
+ process when developing a new system or product:
+\end_layout
+
+\begin_layout Itemize
+Allows a new system or product to be viewed from different levels of complexity.
+ For example, one can take the 
+\begin_inset Quotes eld
+\end_inset
+
+50,000 ft view
+\begin_inset Quotes erd
+\end_inset
+
+ that shows a high-level overview to get a basic idea of how the system
+ or product is made.
+ Or, one can take a low-level over to see how individual components operate
+ and interconnect.
+\end_layout
+
+\begin_layout Itemize
+Periodic reviews can ensure that the stakeholders and product/system developers
+ are in agreement of what the product/system that what is being developed
+ is what was intended.
 \end_layout
 
 \begin_layout Standard
@@ -120,6 +209,20 @@ Question 3
 Of the three systems engineering process models described in the lecture
  in week 1, choose one and explain how it can help in the process of system
  design and synthesis…
+\end_layout
+
+\begin_layout Standard
+The spiral process is an iterative design process that has several different
+ phases.
+ At each phase, a different type of prototype is developed.
+ The different phases with different prototypes coupled with feedback allows
+ for the discovery of what the stakeholders actually want versus what the
+ designers think that the stakeholders want.
+ Also, it allows a product to be designed that is more consistent with what
+ the stakeholders want as well.
+ Because it is an adaptation of the waterfall method, the spiral method
+ is well suited for large-scale, complicated systems such as satellites
+ and aircraft.
 \end_layout
 
 \end_body
