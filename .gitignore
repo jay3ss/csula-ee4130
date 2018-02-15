@@ -227,3 +227,6 @@ TSWLatexianTemp*
 
 # ignore .swp files that are created by vim
 *.swp
+
+# ignore temp files
+*~
