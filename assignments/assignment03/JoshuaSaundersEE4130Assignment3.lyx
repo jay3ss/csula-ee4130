@@ -269,7 +269,7 @@ longest
 \begin_layout Standard
 \begin_inset Formula 
 \[
-A\Rightarrow C\Rightarrow D\Rightarrow G\Rightarrow H\Rightarrow K.
+A\Rightarrow C\Rightarrow D\Rightarrow G\Rightarrow H\Rightarrow I\Rightarrow K.
 \]
 
 \end_inset
@@ -279,16 +279,16 @@ A\Rightarrow C\Rightarrow D\Rightarrow G\Rightarrow H\Rightarrow K.
 
 \begin_layout Standard
 The critical path for the project (
-\begin_inset Formula $A\Rightarrow C\Rightarrow D\Rightarrow G\Rightarrow H\Rightarrow K$
+\begin_inset Formula $A\Rightarrow C\Rightarrow D\Rightarrow G\Rightarrow H\Rightarrow I\Rightarrow K$
 \end_inset
 
 ) has a total cost of (
-\begin_inset Formula $4+7+8+7+7$
+\begin_inset Formula $4+7+8+7+6+3$
 \end_inset
 
 ) 
 \series bold
-33 hours
+35 hours
 \series default
 .
 \end_layout
