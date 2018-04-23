@@ -230,3 +230,6 @@ TSWLatexianTemp*
 
 # ignore temp files
 *~
+
+# ignore temporary LyX files
+\#*#
