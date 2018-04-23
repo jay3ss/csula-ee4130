@@ -143,6 +143,49 @@ Given that there is a of a shortage of a key ingredient used to make the
  in lost revenue.
 \end_layout
 
+\begin_layout Standard
+I would choose the mitigation approach.
+ The reason why I would choose avoidance over acceptance, avoidance, or
+ transfer is
+\end_layout
+
+\begin_layout Enumerate
+Acceptance: this does nothing to help alleviate the risk.
+ If there is a delay then it will definitely cost the company money.
+\end_layout
+
+\begin_layout Enumerate
+Avoidance: changing the requirements or altering the design may end up costing
+ the company even more money due to the extra time that must be spent redesignin
+g the screen and other affected components.
+\end_layout
+
+\begin_layout Enumerate
+Transfer: where would the risk be transferred to? Again, this does nothing
+ to help the situation.
+\end_layout
+
+\begin_layout Standard
+So, by choosing a proper mitigation approach perhaps the delay and/or cost
+ can be reduced.
+ For example, maybe there is another supplier of the key ingredient that
+ can supply Apple.
+ Or, maybe we can use Apple's considerable resources (monetary, social,
+ or political influence) to become the company that is 
+\begin_inset Quotes eld
+\end_inset
+
+first in line
+\begin_inset Quotes erd
+\end_inset
+
+ to receive the ingredient once it becomes available which 
+\emph on
+may
+\emph default
+ reduce the delay.
+\end_layout
+
 \begin_layout Part*
 Question 2
 \end_layout
@@ -184,7 +227,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Directed acyclic graph of task durations
+Graph of task durations
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:dag-task-duration"
@@ -213,7 +256,41 @@ Answer
 \end_layout
 
 \begin_layout Standard
-asfd
+The solution to this problem (finding the 
+\emph on
+longest
+\emph default
+ path) can be found by summing the cost of each task along all of the possible
+ paths.
+ The longest path corresponds to the critical path for a project and in
+ this instance is
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+A\Rightarrow C\Rightarrow D\Rightarrow G\Rightarrow H\Rightarrow K.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The critical path for the project (
+\begin_inset Formula $A\Rightarrow C\Rightarrow D\Rightarrow G\Rightarrow H\Rightarrow K$
+\end_inset
+
+) has a total cost of (
+\begin_inset Formula $4+7+8+7+7$
+\end_inset
+
+) 
+\series bold
+33 hours
+\series default
+.
 \end_layout
 
 \end_body
